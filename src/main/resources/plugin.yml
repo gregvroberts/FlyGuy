@@ -1,0 +1,11 @@
+name: FlyGuy
+version: '${project.version}'
+main: mc.gregvroberts.flyguy.FlyGuy
+api-version: 1.17
+authors: [ gregvroberts ]
+description: Fly with style
+website: github.com/gregvroberts
+commands:
+  fly:
+    description: Fly free like a bird
+    usage: /<command>
