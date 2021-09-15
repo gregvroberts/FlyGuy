@@ -9,7 +9,10 @@ public final class FlyGuy extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
-        getCommand("fly").setExecutor(new FlyGuyCommand());
+        getCommand("fly").setExecutor(new FlyGuyCommand(this));
+
+        getConfig().options().copyDefaults(); // load our configs
+        saveDefaultConfig(); // save the config
 
     }
 }

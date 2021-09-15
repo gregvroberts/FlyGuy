@@ -1,0 +1,2 @@
+on-message: '&8[&2Fly&eGuy&8] &bYou can fly now. Be free!'
+off-message: '&8[&2Fly&eGuy&8] &3You can no longer fly.'
